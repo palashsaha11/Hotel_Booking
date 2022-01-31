@@ -479,6 +479,67 @@ header{
     font-weight: 900;
 }
 
+/* =======================
+Latest News Section Start
+======================= */
+.latestNews {
+    margin: 80px 0;
+    padding: 0;
+}
+.latestNews h6 {
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    text-transform: capitalize;
+    color: #70e73b;
+}
+.latestNews h2 {
+    margin-bottom: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    text-align: left;
+    text-transform: capitalize;
+    color: #000;
+}
+.news {
+    cursor: pointer;
+}
+.news a:hover {
+    color: blue;
+    border-bottom: 1px solid blue;
+}
+.latestNews ul {
+    display: flex;
+}
+.latestNews .tag {
+    margin: 20px 0;
+    padding: 0 20px;
+    font-size: 14px;
+    color: #665252;
+    border: 1px solid gray;
+    border-radius: 15px;
+}
+.latestNews .date {
+    margin: 20px 0;
+    padding: 0 20px;
+    font-size: 14px;
+    color: #6c6161;
+}
+.latestNews h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-size: 24px;
+    color: #443838;
+}
+.latestNews a{
+    padding-bottom: 2px;
+    color: #70e73b;
+    border-bottom: 1px solid #70e73b;
+}
+
 /*===== Footer Section =====*/
 footer{
     background: url(../img/footer.bg.png) no-repeat top center;
@@ -799,6 +860,10 @@ footer{
     .contact-section h1 {
         font-size: 60px;
     }
+    .latestNews { margin: 60px 0; }
+    .latestNews h2 { margin-bottom: 26px; font-size: 34px; }
+    .latestNews .tag { padding: 0 14px; }
+    .latestNews h3 { font-size: 22px; }
     .footer-content{
         width: 335px;
     }
@@ -817,6 +882,7 @@ footer{
         width: 336px;
         margin: 280px 0 0 -283px;
     }
+    
 }
 
 /*=====Media Query For Small Device =====*/
@@ -933,6 +999,11 @@ footer{
     .contact-section h1 {
         font-size: 40px;
     }
+    .latestNews { margin: 60px 0; text-align: center; }
+    .latestNews h2 { margin-bottom: 24px; font-size: 34px; text-align: center; }
+    .newsOne .newsTwo { margin-bottom: 46px; }
+    .latestNews ul { display: inline-flex; }
+    .latestNews h3{ padding: 0 10px; }
     .footer-content-area {
         padding: 15px 0;
     }
@@ -1055,4 +1126,9 @@ footer{
     .slide-item {
         width: 100%;
     }
+    .latestNews { margin: 40px 0; text-align: center; }
+    .latestNews h2 { margin-bottom: 26px; font-size: 30px; text-align: center; }
+    .newsOne .newsTwo { margin-bottom: 40px; }
+    .latestNews ul { display: inline-flex; }
+    .latestNews h3 { font-size: 20px; }
 }
