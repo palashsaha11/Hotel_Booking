@@ -1258,3 +1258,39 @@ footer{
     color: #74e643;
     border-color: #74e643;
 }
+
+/* 404 SECTION */
+.page-not-found{
+    margin: 25px 0;
+}
+.page-not-found img{
+    width: 100%;
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+.left-box-404{
+    padding: 125px 50px 50px;
+}
+.left-box-404 h1{
+    font-size: 50px;
+    font-weight: 900;
+    font-family: sans-serif;
+    color: #323531;
+    text-shadow: 2px 2px 3.5px #505050;
+}
+.left-box-404 p{
+    padding: 20px 0;
+    font-size: 16px;
+}
+.send-msg-button2{
+    padding: 7px 35px;
+}
+.send-msg-button2:focus{
+    margin-top: 15px;
+    background-color: #70e73b;
+    border-color: #74e643;
+    color: #ffffff;
+    text-shadow: 0px 0px 1px #505050;
+    box-shadow: none;
+}
